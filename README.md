@@ -57,7 +57,11 @@ and both URLs serve 200, which is duplicate content.
 
 ## Installing
 
-    npm i -D github:USER/seo-kit
+    npm i -D github:facundo-della-rosa/seo-kit
+
+The repo is private, so installing it needs GitHub auth — an SSH key
+(`npm i -D git+ssh://git@github.com/facundo-della-rosa/seo-kit.git`) or a
+token in the environment. Make it public to drop that requirement.
 
 Then add `seo.config.json` at the repo root:
 
