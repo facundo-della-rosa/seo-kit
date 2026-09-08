@@ -3,16 +3,40 @@
   "version": "0.1.0",
   "description": "Local SEO / agent-readiness checks for static sites: catches link-graph drift that remote scanners structurally cannot see.",
   "type": "module",
-  "bin": { "seo-kit": "bin/seo-kit.mjs" },
+  "bin": {
+    "seo-kit": "bin/seo-kit.mjs"
+  },
   "exports": {
     ".": "./lib/resolve.mjs",
     "./extract": "./lib/extract.mjs"
   },
-  "files": ["bin", "lib", "README.md"],
+  "files": [
+    "bin",
+    "lib",
+    "README.md"
+  ],
   "scripts": {
     "test": "node --test test/*.test.mjs"
   },
-  "engines": { "node": ">=18" },
-  "keywords": ["seo", "aeo", "geo", "agent-readiness", "llms-txt", "netlify", "static-site"],
-  "license": "MIT"
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "seo",
+    "aeo",
+    "geo",
+    "agent-readiness",
+    "llms-txt",
+    "netlify",
+    "static-site"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facundo-della-rosa/seo-kit.git"
+  },
+  "homepage": "https://github.com/facundo-della-rosa/seo-kit#readme",
+  "bugs": {
+    "url": "https://github.com/facundo-della-rosa/seo-kit/issues"
+  }
 }
