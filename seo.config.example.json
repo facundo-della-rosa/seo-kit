@@ -1,0 +1,6 @@
+{
+  "buildDir": "build",
+  "baseUrl": "https://example.com",
+  "redirectsFile": "_redirects",
+  "sources": ["sitemap.xml"]
+}

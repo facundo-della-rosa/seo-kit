@@ -1,0 +1,7 @@
+{
+  "buildDir": "build",
+  "baseUrl": "https://example.com",
+  "redirectsFile": "_redirects",
+  "sources": ["sitemap.xml"],
+  "severity": { "jsonld": "error", "canonical": "info" }
+}

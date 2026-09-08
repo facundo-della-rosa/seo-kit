@@ -1,0 +1,6 @@
+# a published file shadows this 301 -> both URLs serve 200
+/mx/fichas.html   /mx/fichas        301
+# rewrite: URL stays, target served
+/mx/fichas        /mx/fichas.html   200
+# forced rules beat published files
+/forced.html      /mx/              301!

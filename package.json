@@ -1,0 +1,18 @@
+{
+  "name": "seo-kit",
+  "version": "0.1.0",
+  "description": "Local SEO / agent-readiness checks for static sites: catches link-graph drift that remote scanners structurally cannot see.",
+  "type": "module",
+  "bin": { "seo-kit": "bin/seo-kit.mjs" },
+  "exports": {
+    ".": "./lib/resolve.mjs",
+    "./extract": "./lib/extract.mjs"
+  },
+  "files": ["bin", "lib", "README.md"],
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["seo", "aeo", "geo", "agent-readiness", "llms-txt", "netlify", "static-site"],
+  "license": "MIT"
+}
